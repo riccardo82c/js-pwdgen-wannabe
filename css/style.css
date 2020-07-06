@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+h1 {
+    text-transform: uppercase;
+
+}
+
+span {
+    font-size: 22px;
+    background-color: rgb(42, 42, 42);
+
+
+}
