@@ -5,7 +5,7 @@ var secretNumber = Math.round(Math.random() * 10) + 1;
 // var secretNumber = 19;
 
 document.getElementsByTagName("span")[0].innerHTML =
-  "La tua password è: " + nome + cognome + colore + secretNumber;
+	"La tua password è: " + nome + cognome + colore + secretNumber;
 
 /* document.getElementById("pwd").innerHTML =
   "La tua password è: " + nome + cognome + colore + secretNumber; */
